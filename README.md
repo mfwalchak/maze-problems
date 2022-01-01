@@ -8,15 +8,16 @@ Brute-force recursive algorithm that returns all possible solution paths in an N
 Begin at upper-left corner (0,0) and exit maze at "e".
 This solution uses both an array and a string passed into recursive function calls as persistent storage.
 
-┌─────────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┐
-│ (index) │  0  │  1  │  2  │  3  │  4  │  5  │  6  │
-├─────────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┤
-│    0    │ ' ' │ ' ' │ ' ' │ '*' │ ' ' │ ' ' │ ' ' │
-│    1    │ '*' │ '*' │ ' ' │ '*' │ ' ' │ '*' │ ' ' │
-│    2    │ ' ' │ ' ' │ ' ' │ ' ' │ ' ' │ ' ' │ ' ' │
-│    3    │ ' ' │ '*' │ '*' │ '*' │ '*' │ '*' │ ' ' │
-│    4    │ ' ' │ ' ' │ ' ' │ ' ' │ ' ' │ ' ' │ 'e' │
-└─────────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┘
-solution: RRDDLLDDRRRRRR
-          RRDDRRRRDD
-          RRDDRRUURRDDDD
+┌─────────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┐  
+│ (index) │  0  │  1  │  2  │  3  │  4  │  5  │  6  │  
+├─────────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┤  
+│    0    │ ' ' │ ' ' │ ' ' │ '\*' │ ' ' │ ' ' │ ' ' │  
+│    1    │ '\*' │ '\*' │ ' ' │ '\*' │ ' ' │ '\*' │ ' ' │  
+│    2    │ ' ' │ ' ' │ ' ' │ ' ' │ ' ' │ ' ' │ ' ' │  
+│    3    │ ' ' │ '\*' │ '\*' │ '\*' │ '\*' │ '\*' │ ' ' │  
+│    4    │ ' ' │ ' ' │ ' ' │ ' ' │ ' ' │ ' ' │ 'e' │  
+└─────────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┘  
+
+solution: RRDDLLDDRRRRRR  
+          RRDDRRRRDD  
+          RRDDRRUURRDDDD  
