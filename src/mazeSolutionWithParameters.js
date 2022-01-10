@@ -11,8 +11,9 @@
       }
       if (maze[row][col] === "e"){
         console.log("solution:", solution);
+        console.table(maze);
         path.push(solution);
-        return path.join();//undefined is coming back from the first failed call
+        return path.join();
       }
       if (maze[row][col] === " "){
         maze[row][col] = "*"
